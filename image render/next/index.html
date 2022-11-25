@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Employee Database</title>
+    <script src="/next/api.js"></script>
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <div id="data">
+
+
+        <form>
+            <h3><b>Employee Form</b></h3><br>
+            Name : <input type="text" id="Name"><br><br>
+            Job : <input type="text" id="job"><br><br>
+            Salary : <input type="number" id="salary"><br><br>
+            <button onclick="AddData(event)">Add</button>
+        </form>
+    </div>
+
+    <div id="tab">
+        <table id="list" cellspacing="3" cellpadding="3" border="1">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Job</td>
+                    <td>Salary</td>
+                    <!-- <td>Delete</td> -->
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+
+
+    <script src="/next/app.js"></script>
+    <!-- <script src="/next/api.js"></script> -->
+
+</body>
+
+</html>
